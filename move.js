@@ -48,7 +48,6 @@ function move(element) {
             if(e.key === 'ArrowDown'){
                 direction = 'south'
             }
-            console.log('here')
             callback(direction)
         })
         

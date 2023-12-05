@@ -1,6 +1,6 @@
 function newItem(url){
     let item = newImage(url)
-    item.addEventListener('click', () => {
+    item.addEventListener('dblclick', () => {
         item.remove()
         let inventoryItem = document.createElement('img')
         inventoryItem.src = url;
